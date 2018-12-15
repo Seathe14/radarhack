@@ -22,6 +22,8 @@ public:
 	DWORD m_bSpotted = 0x93D;
 	DWORD m_dwBoneMatrix = 0x2698;
 	DWORD dwViewMatrix = 0x4C2DF24;
+	DWORD m_iTeamNum = 0xF4;
+	DWORD m_bDormant = 0xED;
 }Offsets;
 
 struct GlowObj
